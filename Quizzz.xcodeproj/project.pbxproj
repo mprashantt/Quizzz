@@ -10,12 +10,12 @@
 		8F9707E122F41AC800407C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9707E022F41AC800407C7C /* AppDelegate.swift */; };
 		8F9707E322F41AC800407C7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9707E222F41AC800407C7C /* ViewController.swift */; };
 		8F9707E622F41AC800407C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9707E422F41AC800407C7C /* Main.storyboard */; };
-		8F9707E822F41AC900407C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9707E722F41AC900407C7C /* Assets.xcassets */; };
 		8F9707EB22F41AC900407C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9707E922F41AC900407C7C /* LaunchScreen.storyboard */; };
 		8F9707F622F41BA400407C7C /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F9707F322F41BA300407C7C /* ProgressHUD.bundle */; };
 		8F9707F722F41BA400407C7C /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9707F522F41BA400407C7C /* ProgressHUD.m */; };
 		8F9707F922F41EA400407C7C /* QuestionFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9707F822F41EA400407C7C /* QuestionFormat.swift */; };
 		8F9707FB22F41EBA00407C7C /* QuestionCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9707FA22F41EBA00407C7C /* QuestionCollection.swift */; };
+		8F97080122F443B300407C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F97080022F443B300407C7C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,6 @@
 		8F9707E022F41AC800407C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F9707E222F41AC800407C7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F9707E522F41AC800407C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F9707E722F41AC900407C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F9707EA22F41AC900407C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F9707EC22F41AC900407C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F9707F222F41BA300407C7C /* Quizzz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quizzz-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -32,6 +31,7 @@
 		8F9707F522F41BA400407C7C /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		8F9707F822F41EA400407C7C /* QuestionFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionFormat.swift; sourceTree = "<group>"; };
 		8F9707FA22F41EBA00407C7C /* QuestionCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCollection.swift; sourceTree = "<group>"; };
+		8F97080022F443B300407C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = AppIcons/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 		8F9707FE22F4357F00407C7C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8F97080022F443B300407C7C /* Assets.xcassets */,
 				8F9707E422F41AC800407C7C /* Main.storyboard */,
-				8F9707E722F41AC900407C7C /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			files = (
 				8F9707F622F41BA400407C7C /* ProgressHUD.bundle in Resources */,
 				8F9707EB22F41AC900407C7C /* LaunchScreen.storyboard in Resources */,
-				8F9707E822F41AC900407C7C /* Assets.xcassets in Resources */,
+				8F97080122F443B300407C7C /* Assets.xcassets in Resources */,
 				8F9707E622F41AC800407C7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

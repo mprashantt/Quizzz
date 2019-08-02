@@ -10,11 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var newQuestion: UILabel!
+    @IBOutlet weak var questionNumber: UILabel!
+    @IBOutlet weak var scoreLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func buttonPressed(_ sender: Any) {
+        
+        
+    }
+    
 
 }
 

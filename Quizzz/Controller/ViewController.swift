@@ -72,7 +72,7 @@ class ViewController: UIViewController {
             updateUI()
             
         } else {
-            let alert = UIAlertController(title: "Great", message: "Your score is "+String(score)+", want to start again ..?", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Great", message: "want to start again ..?", preferredStyle: .alert)
             let restartAction = UIAlertAction(title: "Restart", style: .default, handler: { (UIActionAlert) in
                 self.startOver()
             })

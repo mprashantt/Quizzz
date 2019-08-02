@@ -64,12 +64,9 @@
 		8F9707DF22F41AC800407C7C /* Quizzz */ = {
 			isa = PBXGroup;
 			children = (
-				8F9707E022F41AC800407C7C /* AppDelegate.swift */,
-				8F9707FA22F41EBA00407C7C /* QuestionCollection.swift */,
-				8F9707E222F41AC800407C7C /* ViewController.swift */,
-				8F9707F822F41EA400407C7C /* QuestionFormat.swift */,
-				8F9707E422F41AC800407C7C /* Main.storyboard */,
-				8F9707E722F41AC900407C7C /* Assets.xcassets */,
+				8F9707FC22F4355D00407C7C /* Controller */,
+				8F9707FD22F4357200407C7C /* Model */,
+				8F9707FE22F4357F00407C7C /* View */,
 				8F9707E922F41AC900407C7C /* LaunchScreen.storyboard */,
 				8F9707EC22F41AC900407C7C /* Info.plist */,
 				8F9707F322F41BA300407C7C /* ProgressHUD.bundle */,
@@ -78,6 +75,33 @@
 				8F9707F222F41BA300407C7C /* Quizzz-Bridging-Header.h */,
 			);
 			path = Quizzz;
+			sourceTree = "<group>";
+		};
+		8F9707FC22F4355D00407C7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F9707E022F41AC800407C7C /* AppDelegate.swift */,
+				8F9707E222F41AC800407C7C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F9707FD22F4357200407C7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F9707FA22F41EBA00407C7C /* QuestionCollection.swift */,
+				8F9707F822F41EA400407C7C /* QuestionFormat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F9707FE22F4357F00407C7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F9707E422F41AC800407C7C /* Main.storyboard */,
+				8F9707E722F41AC900407C7C /* Assets.xcassets */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -1,6 +1,6 @@
 # Quizzz
 
-In thsi quiz app you can select either of 4 options basis on your knowledge.
+In this quiz app you can select either of 4 options basis on your knowledge.
 Based on your answer system will match the correct answer and provides suitable comment(Correct or Wrong). 
 You will be able to see your sore as you progress.
 At the end you get option to restart the quiz.
